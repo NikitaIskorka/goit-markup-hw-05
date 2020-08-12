@@ -98,7 +98,7 @@ focus and hover */
   left: 0px;
   top: 40px;
 
-  transform: translateY(37px);
+  transform: translateY(900%);
 
   height: 4px;
   width: 100%;
