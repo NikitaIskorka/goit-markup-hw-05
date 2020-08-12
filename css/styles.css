@@ -98,7 +98,7 @@ focus and hover */
   left: 0px;
   top: 40px;
 
-  transform: translateY(35px);
+  transform: translateY(37px);
 
   height: 4px;
   width: 100%;
@@ -230,7 +230,6 @@ focus and hover */
 .button {
   padding: 10px 32px;
   color: var(--alternative-text-color);
-  display: inline-block;
   background: #2196f3;
   border-radius: 4px;
   border: 1px solid transparent;
@@ -285,7 +284,76 @@ focus and hover */
   right: 8px;
   top: 8px;
 }
-/* Features */
+
+/* --------------FORM-DECORATION--------------------- */
+.callback-form {
+  padding: 40px;
+}
+.form-tittle {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+}
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.form-field label {
+  margin-bottom: 4px;
+
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+
+  color: var(--secondary-text-color);
+}
+.form-field input {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+
+  border-radius: 4px;
+  height: 40px;
+}
+
+textarea {
+  padding: 12px 16px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+
+  border-radius: 4px;
+  resize: none;
+}
+.policy-field {
+  align-items: center;
+  margin-top: 20px;
+}
+.policy-field .policy-link {
+  text-decoration: underline;
+  color: var(--accent-color);
+}
+.submit {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.submit-btn {
+  margin-top: 30px;
+  padding: 10px 32px;
+
+  min-width: 200px;
+
+  color: var(--alternative-text-color);
+  background: #2196f3;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+/* ----------------Features ----------------------------*/
+
 .features .list {
   display: flex;
   justify-content: center;
@@ -354,6 +422,9 @@ focus and hover */
 /* wORK CARD  */
 .work-item {
   position: relative;
+}
+.work-img {
+  display: block;
 }
 .work-item + .work-item {
   margin-left: 30px;
